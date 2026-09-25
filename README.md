@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="docs/logo.png" alt="Jev voice prototyper" width="320" />
+  <img src="docs/logo.png" alt="Jev voice prototyper" width="100%" />
 </p>
 
 # Jev voice prototyper
