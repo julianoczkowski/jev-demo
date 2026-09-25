@@ -45,3 +45,6 @@ next-env.d.ts
 
 # playwright screenshots
 /.playwright-mcp/
+
+# env template (placeholders only)
+!.env.local.example

@@ -1,4 +1,13 @@
+<p align="left">
+  <img src="docs/logo.png" alt="Jev voice prototyper" width="320" />
+</p>
+
 # Jev voice prototyper
+
+[![YouTube](https://img.shields.io/badge/YouTube-@aiforwork__app-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@aiforwork_app)
+[![Medium](https://img.shields.io/badge/Medium-@julian.oczkowski-000000?logo=medium&logoColor=white)](https://medium.com/@julian.oczkowski)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-julianoczkowski-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julianoczkowski/)
+[![GitHub](https://img.shields.io/badge/GitHub-julianoczkowski-181717?logo=github&logoColor=white)](https://github.com/julianoczkowski)
 
 Speak a UI into existence. Audio stays on your Mac; the transcript goes to Jev
 (TypeSafe AI's System One model), which answers a batch of typed questions;
@@ -92,3 +101,13 @@ Answers below 0.5 (Noul) or with confidence below 0.15 (Choice) are treated as "
   a case in `spec.ts`, and the shadcn definition/implementation in `catalog.ts` / `canvas.tsx`.
 - New operation: a Noul in `questions.ts` and a block in `apply.ts`. Table content edits (avatars, columns, rows) use the `table_change` Choice, asked only when a table exists.
 - Better transcription: `pnpm whisper:model medium.en` then `WHISPER_MODEL=models/ggml-medium.en.bin pnpm whisper`.
+
+## Author
+
+<img width="236" height="236" alt="avatar2" src="https://github.com/user-attachments/assets/5677ddb5-6b0b-4054-a70b-a143761dd307" />
+
+Built by **Julian Oczkowski** — I build AI tools for knowledge work.
+
+- 🎥 **[YouTube · @aiforwork_app](https://www.youtube.com/@aiforwork_app)** — walkthroughs and AI-for-work tutorials
+- ✍️ **[Medium](https://medium.com/@julian.oczkowski)** — deep dives on product and AI workflows
+- 💼 **[LinkedIn](https://www.linkedin.com/in/julianoczkowski/)** — connect and follow along
